@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, .font-heading {
+    font-family: 'Fredoka', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom sound and pulse effects */
+@keyframes softPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.04); }
+}
+
+.animate-soft-pulse {
+  animation: softPulse 2.5s ease-in-out infinite;
+}
+
+/* Accessibility high-contrast & font-size mode helpers */
+.font-scale-lg {
+  font-size: 115%;
+}
+
+.font-scale-xl {
+  font-size: 130%;
+}
+
+.high-contrast-mode {
+  --tw-bg-opacity: 1;
+  filter: contrast(115%);
+}

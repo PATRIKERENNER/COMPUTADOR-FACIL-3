@@ -1,0 +1,6 @@
+{
+  "name": "Computador Fácil - Guia Visual de Hardware e Informática",
+  "description": "Guia interativo, visual e intuitivo sobre hardware, microcomputadores, periféricos e montagem passo a passo para iniciantes e todos os públicos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
